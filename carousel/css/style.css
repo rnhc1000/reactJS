@@ -1,0 +1,26 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.gallery {
+    width: 30rem;
+    height: 23rem;
+
+    position: relative;
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+
+    position: sticky; left: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+    scroll-snap-align: start;
+}
