@@ -1,0 +1,17 @@
+@import 'styles.css';
+
+#dsc-product-listing-section {
+    padding: 20px 0;
+}
+
+.dsc-product-listing-img {
+    height: 70px;
+    width: 70px;
+    display: block;
+}
+
+.dsc-product-listing-btn {
+    height: 20px;
+    width: auto;
+    cursor: pointer;
+}
