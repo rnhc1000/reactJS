@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSCommerce</title>
+    <link rel="stylesheet" href="css/product-form.css">
+</head>
+
+<body>
+    <header class="dsc-header-admin">
+        <nav class="dsc-container">
+            <h1>DSC Admin</h1>
+            <div class="dsc-nav-bar-right">
+                <div class="dsc-menu-items-container">
+                    <div class="dsc-menu-item">
+                        <img src="img/home.svg" alt="Inicio">
+                        <p>Início</p>
+                    </div>
+                    <div class="dsc-menu-item">
+                        <img src="img/products.svg" alt="Cadastro de Produtos">
+                        <p class="dsc-menu-item-active">Produtos</p>
+                    </div>
+                </div>
+                <div class="dsc-logged-user">
+                    <p>Maria Silva</p>
+                    <a href="#">Sair</a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section id="dsc-product-form-section" class="dsc-container">
+            <div class="dsc-product-form-container">
+                <form class="dsc-card dsc-form">
+                    <h2>Dados do Produto</h2>
+                    <div class="dsc-form-control-container">
+                        <div>
+                            <input type="text" class="dsc-form-control" placeholder="Nome">
+                        </div>
+                        <div>
+                            <input type="text" class="dsc-form-control" placeholder="Preço">
+                        </div>
+                        <div>
+                            <input type="text" class="dsc-form-control" placeholder="Imagem">
+                        </div>
+                        <div>
+                            <select class="dsc-form-control dsc-select" required>
+                                <option value="" disabled selected>Categorias</option>
+                                <option value="1">Valor 1</option>
+                                <option value="2">Valor 2</option>
+                            </select>
+                        </div>
+                        <div>
+                            <textarea placeholder="Descrição" class="dsc-form-control dsc-text-area" >
+                                
+                            </textarea>
+                        </div>
+                    </div>
+                    <div class="dsc-product-form-buttons">
+                        <button type="reset" class="dsc-btn dsc-btn-white">Cancelar</button>
+                        <button type="submit" class="dsc-btn dsc-btn-blue">Salvar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
